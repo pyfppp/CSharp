@@ -1,6 +1,6 @@
 自定义查询语句如下
 ==
-```SQL
+```CPP
 select *
 from 
 where
