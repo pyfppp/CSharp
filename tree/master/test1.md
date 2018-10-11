@@ -1,22 +1,14 @@
-## 实验1教材查询语句分析：
+# 实验1教材查询语句分析：
 
 ![image](https://github.com/pyfppp/Oracle/blob/master/tree/master/test1_explanation1.png)
 
----
-查询语句1的解释计划
-
----
 ![image](https://github.com/pyfppp/Oracle/blob/master/tree/master/test1_explanation2.png)
 
----
-查询语句2的解释计划
-
----
 
 
-## 实验1自定义查询语句:
 
----
+# 实验1自定义查询语句:
+
 ```SQL
 SELECT d.department_name，count(e.job_id)as "部门总人数"，
 avg(e.salary)as "平均工资"
@@ -25,4 +17,5 @@ where d.department_id = e.department_id
 and d.department_name in ('IT'，'Sales')
 GROUP BY department_name;
 ```
-## 实验1自定义查询语句分析:
+
+# 实验1自定义查询语句分析:
