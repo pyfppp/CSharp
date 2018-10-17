@@ -43,12 +43,17 @@ JOIN的顺序很重要，驱动表的记录集一定要小，返回结果集的�
 # 实验1自定义查询语句:
 
 ```SQL
-SELECT d.department_name，count(e.job_id)as "部门总人数"，
-avg(e.salary)as "平均工资"
-from hr.departments d，hr.employees e
-where d.department_id = e.department_id
-and d.department_name in ('IT'，'Sales')
-GROUP BY department_name;
+select e.email
+from hr.departments d,hr.employees e
+where d.manager_id=e.manager_id
+and d.manager_id is not null；
 ```
 
 # 实验1自定义查询语句分析:
+在我的自定义查询语句中，我编写了“查询所有有领导的职员的邮箱”，解释计划如下图：
+![image](https://github.com/pyfppp/Oracle/blob/master/tree/master/test1_explanation_self.png)
+_自定义查询语句解释计划_
+
+---
+性能方面并没有太多改进余地，本身该sql语句也并不算复杂，但是在呈现的方式上可以更加友好，比如使用```group-by```等语句优化结果。
+整体上使用连接查询连接了```employees```和```department```两张表并且使用关键字```is not null```进行```manager_id```是否为空的判断，从而山选出目标结果集。
