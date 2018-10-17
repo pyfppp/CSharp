@@ -51,8 +51,8 @@ and e.email like '%A%'
 ```
 
 # 实验1自定义查询语句分析:
-在我的自定义查询语句中，我编写了“查询所有有领导的职员的邮箱,并且要求该邮箱中还有大写字母A”，解释计划如下图：
-![image](https://github.com/pyfppp/Oracle/blob/master/tree/master/test1_explanation_self.png)
+在我的自定义查询语句中，我编写了***查询所有有领导的职员的邮箱,并且要求该邮箱中还有大写字母A***，解释计划如下图：
+<br>![image](https://github.com/pyfppp/Oracle/blob/master/tree/master/test1_explanation_self.png)
 _自定义查询语句解释计划_
 
 ---
