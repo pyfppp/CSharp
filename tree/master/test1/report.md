@@ -1,11 +1,11 @@
 
 # 实验1教材查询语句分析：
 
-![image](https://github.com/pyfppp/Oracle/blob/master/tree/master/test1_explanation1.png)
+![image](https://github.com/pyfppp/Oracle/blob/master/tree/master/test1/test1_explanation1.png)
 _语句1解释计划_
 
 ---
-![image](https://github.com/pyfppp/Oracle/blob/master/tree/master/test1_explanation2.png)
+![image](https://github.com/pyfppp/Oracle/blob/master/tree/master/test1/test1_explanation2.png)
 _语句2解释计划_
 
 ---
@@ -53,11 +53,11 @@ and e.email like '%A%'
 
 # 实验1自定义查询语句分析:
 在我的自定义查询语句中，我编写了**查询所有有领导的职员的邮箱,并且要求该邮箱中还有大写字母A**，解释计划如下图：
-<br>![image](https://github.com/pyfppp/Oracle/blob/master/tree/master/test1_explanation_self.png)
+<br>![image](https://github.com/pyfppp/Oracle/blob/master/tree/master/test1/test1_explanation_self.png)
 _自定义查询语句解释计划_
 
 ---
-![image](https://github.com/pyfppp/Oracle/blob/master/tree/master/test1_set_self.png)
+![image](https://github.com/pyfppp/Oracle/blob/master/tree/master/test1/test1_set_self.png)
 _自定义语句结果集_
 
 ---
