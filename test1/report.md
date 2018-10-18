@@ -1,11 +1,11 @@
 
 # 实验1教材查询语句分析：
 
-![image](https://github.com/pyfppp/Oracle/blob/master/test1/test1_explanation_example1.png)
+![image](https://github.com/pyfppp/Oracle/blob/master/test1/test1_explanation_examp1.png)
 _语句1解释计划_
 
 ---
-![image](https://github.com/pyfppp/Oracle/blob/master/test1/test1_explanation_example2.png)
+![image](https://github.com/pyfppp/Oracle/blob/master/test1/test1_explanation_examp2.png)
 _语句2解释计划_
 
 ---
