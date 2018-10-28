@@ -1,4 +1,6 @@
 ## 实验2
+
+_使用PL SQLDEVELOPER,查询语句使用实验建议步骤的所有代码_<br>
 ![image](https://github.com/pyfppp/Oracle/blob/master/test2/insert.png)
 <br>_插入数据结果_<br>
 
