@@ -1,7 +1,6 @@
 
 # 实验1教材查询语句分析：
 
-_使用PL SQLDEVELOPER,查询语句使用实验建议步骤的所有代码_
 ![image](https://github.com/pyfppp/Oracle/blob/master/test1/test1_explanation_examp1.png)
 _语句1解释计划_
 
