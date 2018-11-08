@@ -122,7 +122,9 @@ PARTITION BY REFERENCE (ORDER_DETAILS_FK1)
 ```
 <br>
 ## 联合查询部分语句
+
 ```sql
+
 EXPLAIN plan for
 select 
     orders.order_id as AID,
@@ -134,4 +136,5 @@ from
 INNER JOIN ORDER_DETAILS ON (orders.order_id=order_details.order_id);
 
 select * from table(dbms_xplan.display());
+
 ```
