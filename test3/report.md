@@ -121,7 +121,7 @@ PARTITION BY REFERENCE (ORDER_DETAILS_FK1)
 );
 ```
 <br>
-## 联合查询部分语句
+## 执行计划部分语句
 
 ```sql
 
