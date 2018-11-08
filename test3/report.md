@@ -22,6 +22,26 @@ _创建orders_details表截图_
 
 ---
 _数据库使用情况分析_
+![image](https://github.com/pyfppp/Oracle/blob/master/test3/do_plan.png)
+
+---
+_执行计划截图_
+![image](https://github.com/pyfppp/Oracle/blob/master/test3/insert_details.png)
+
+---
+_插入user_details表截图_
+![image](https://github.com/pyfppp/Oracle/blob/master/test3/orders_count.png)
+
+---
+_orders插入完成验证计数截图_
+![image](https://github.com/pyfppp/Oracle/blob/master/test3/orders_detais.png)
+
+---
+_插入order_details验证计数截图_
+![image](https://github.com/pyfppp/Oracle/blob/master/test3/union_search.png)
+
+---
+_联合查询情况截图_
 
 ### 关键部分SQL语句如下
 
@@ -99,4 +119,19 @@ PARTITION BY REFERENCE (ORDER_DETAILS_FK1)
   ) 
   NOCOMPRESS NO INMEMORY  
 );
+```
+<br>
+## 联合查询部分语句
+```sql
+EXPLAIN plan for
+select 
+    orders.order_id as AID,
+    orders.customer_name as customer_name,
+    order_details.order_id as BID,
+    ORDER_DETAILS.PRODUCT_ID as product_id
+from
+    ORDERS
+INNER JOIN ORDER_DETAILS ON (orders.order_id=order_details.order_id);
+
+select * from table(dbms_xplan.display());
 ```
