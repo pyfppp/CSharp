@@ -921,9 +921,15 @@ WHERE a.tablespace_name = b.tablespace_name
 
 ```
 运行测试截图如下<br>
-![image](https://github.com/pyfppp/Oracle/blob/master/test4/search_employee.png)<br>
+![image](https://github.com/pyfppp/Oracle/blob/master/test4/search_employee.png)
+
+---
 _查询员工信息_
-![image](https://github.com/pyfppp/Oracle/blob/master/test4/search_order_detail.png)<br>
+![image](https://github.com/pyfppp/Oracle/blob/master/test4/search_order_detail.png)
+
+---
 _查询订详情_
-![image](https://github.com/pyfppp/Oracle/blob/master/test4/search_orderid.png)<br>
+![image](https://github.com/pyfppp/Oracle/blob/master/test4/search_orderid.png)
+
+---
 _查询订单id_
