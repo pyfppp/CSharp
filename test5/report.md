@@ -1,3 +1,7 @@
+### 实验5：PL/SQL编程
+
+
+```sql
 create or replace PACKAGE MyPack IS
   /*
   本实验以实验4为基础。
@@ -70,3 +74,11 @@ END;
     111 吴经理
     112 白经理
 */
+```
+### 测试代码:
+```sql
+select count(*) from orders;
+```
+### 测试截图:
+[!image](https://github.com/pyfppp/Oracle/blob/master/test5/test5_2.png)
+
