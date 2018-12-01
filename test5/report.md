@@ -80,5 +80,5 @@ END;
 select count(*) from orders;
 ```
 ### 测试截图:
-[!image](https://github.com/pyfppp/Oracle/blob/master/test5/test5_2.png)
+![image](https://github.com/pyfppp/Oracle/blob/master/test5/test5_2.png)
 
